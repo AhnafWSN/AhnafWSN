@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Timer.css">
+        <title>Timer</title>
+    </head>
+    <body>
+    <div class="background">
+        <div class="navbar">
+            <ul>
+                <li>
+                    <a href=".\Stopwatch.html">Stopwatch</a>
+                </li>
+                <li>
+                    <a href=".\Advanced Clock.html">Advanced Clock</a>
+                </li>
+                <li>
+                    <a href="https://github.com/Galangzz/Advance-Clock/blob/AdvancedClock/timer/timer.html" target="_blank">Source Code</a>
+                </li>
+            </ul>
+        </div> 
+        <div class="tampilan-timer">
+            <h2>Timer</h2>
+            <form class="userinput" action="#">
+                <input type="text" id="hours" placeholder="Hours" style="width:4%; text-align:right; margin-right:3px">
+                <input type="text" id="minutes" placeholder="Minutes" style="width:4%; text-align:right; margin-right:3px">
+                <input type="text" id="seconds" placeholder="Seconds" style="text-align:right; width:4%; margin-right:3px">
+	        <p id="timer"></p>
+        </form>
+            <div class="buttons">
+                <button id="button1">Start</button>
+                <button id="button2">Pause</button>
+                <button id="button3">Reset</button>
+            </div>    
+
+        </div>
+        
+        
+        <script src="Timer.js"></script>
+    </div>
+    </body>

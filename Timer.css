@@ -1,0 +1,23 @@
+.background{
+    background: linear-gradient(45deg, #0079c2, #83c2e3);
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: #0079c2;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar li {
+    float: left;
+}
